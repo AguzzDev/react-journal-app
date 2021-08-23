@@ -14,7 +14,7 @@ export const JournalScreen = () => {
         >
             <Sidebar />
 
-            <main>
+            <main className="journal__nothingselected">
                 {
                     (active)
                         ? (<NoteScreen />)
